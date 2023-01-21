@@ -1,0 +1,144 @@
+html{
+    background-color: hsl(217, 54%, 11%)
+}
+
+.container {
+    height: 580px;
+    width: 347px;
+    background-color: hsl(216, 50%, 16%);
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;  
+        
+}
+
+.nft {
+    padding: 15px;
+    margin: 5px;
+    margin-top: 12px;
+    border-radius: 25px;
+    height: 300px;
+}
+
+.capa{
+    
+    position: fixed;
+    bottom: 253px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+    
+}
+
+
+.capa:hover{
+    opacity: 40%;
+}
+.eq{
+   color: white; 
+   position: relative;
+   right: 65px;
+   bottom: 20px;
+   font-family: 'Outfit', sans-serif;
+   font-weight: 600;
+   font-size: 15pt;
+}
+.eq:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+.paragraph{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    bottom: 50px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 30px;
+    font-weight: 300;
+    
+}
+.ethereum{
+    position: relative;
+    margin-right: 80%;
+    bottom: 40px;
+}
+
+
+.dinero{
+    position: relative;
+    margin-right: 55%;
+    bottom: 82px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 11pt;
+    color: hsl(178, 100%, 50%);
+    font-weight: 550;
+}
+.clock {
+    position: relative;
+    margin-left: 40%;
+    bottom: 122px;
+}
+.daysL {
+    position: relative;
+    margin-left: 66%;
+    bottom: 161px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+.line { 
+    height: 1px;
+    width: 300px;
+    position: relative;
+    bottom: 170px;
+    background-color: hsl(215, 51%, 70%);
+    opacity: 20%;
+}
+
+.container-icon{
+    border-radius: 200px;
+    height: 30px;
+    width: 30px;
+    bottom: 155px;
+    border: 1px solid white;
+    position: relative;
+    margin-right: 80%;
+   
+}
+
+.icon{
+    height: auto;
+    width: 30px;
+}
+
+.LM{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    position: relative;
+    margin-right: 10px;
+    font-size: 12px;
+    bottom: 241px;
+    
+}
+
+.LM:hover{
+    color: hsl(178, 100%, 50%);
+}
+.creation{
+    position: relative;
+    margin-right: 150px;
+    bottom: 194px;
+    font-weight: 300px;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+
+
